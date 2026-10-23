@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- List of all pages on www.uflowskills.com for search engines.
+     Add a new <url> block for every new page (for example /lv/ or a book page)
+     and update <lastmod> when a page changes. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.uflowskills.com/</loc>
+    <lastmod>2026-10-23</lastmod>
+  </url>
+</urlset>

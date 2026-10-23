@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page not found | UFlow Skills</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1B2E4B">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap">
+<style>
+:root {
+  --band: #1B2E4B;
+  --band-ink: #F4F6FA;
+  --band-muted: #AEB8CF;
+  --gold: #C9A13B;
+  --font: "Montserrat", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --band: #071026; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --band: #071026; color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--band);
+  color: var(--band-ink);
+  font-family: var(--font);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px max(16px, env(safe-area-inset-left, 0px));
+}
+.box { max-width: 600px; text-align: center; }
+.lines span { display: block; }
+.lines span + span { margin-top: 4px; }
+.logo { width: 96px; height: 96px; border-radius: 20px; display: block; margin: 0 auto 28px; }
+.code { font-weight: 800; font-size: 0.85rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); }
+h1 { margin: 12px 0 0; font-weight: 800; font-size: clamp(1.8rem, 5vw, 2.4rem); line-height: 1.15; text-wrap: balance; }
+p { margin: 16px 0 0; color: var(--band-muted); }
+.alt { margin-top: 28px; padding-top: 24px; border-top: 1px solid rgba(201,161,59,0.35); }
+.alt h2 { margin: 0; font-weight: 700; font-size: 1.25rem; color: var(--band-ink); }
+.actions { margin-top: 32px; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.btn {
+  display: inline-block; padding: 14px 24px; border-radius: 999px; text-decoration: none;
+  font-weight: 700; font-size: 0.95rem; background: var(--gold); color: #1B2E4B;
+}
+.btn.ghost { background: transparent; color: var(--band-ink); border: 1px solid rgba(201,161,59,0.6); }
+.btn:focus-visible { outline: 3px solid var(--band-ink); outline-offset: 3px; }
+</style>
+</head>
+<body>
+  <main class="box">
+    <img class="logo" src="/apple-touch-icon.png" width="96" height="96" alt="UFlow Skills logo">
+    <div class="code">404</div>
+    <h1>This page took a different path.</h1>
+    <p class="lines"><span>The page you are looking for does not exist or has moved.</span><span>Our books and topics are waiting on the home page.</span></p>
+    <div class="alt" lang="es">
+      <h2>No encontramos esta página.</h2>
+      <p class="lines"><span>La página que buscas no existe o se ha movido.</span><span>Encontrarás nuestros libros y temas en la página de inicio.</span></p>
+    </div>
+    <div class="alt" lang="lv">
+      <h2>Šī lapa nav atrodama.</h2>
+      <p class="lines"><span>Meklētā lapa neeksistē vai ir pārvietota.</span><span>Grāmatas un tēmas atradīsi sākumlapā.</span></p>
+    </div>
+    <div class="actions">
+      <a class="btn" href="/">Home · Inicio · Sākums</a>
+      <a class="btn ghost" href="/#contact">Contact · Contacto · Kontakti</a>
+    </div>
+  </main>
+</body>
+</html>
